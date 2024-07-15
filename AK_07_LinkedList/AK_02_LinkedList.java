@@ -30,7 +30,7 @@ public class AK_02_LinkedList {
 
     // Complexity - O(1) constant time
     public void addLast(int data) {
-        AK_02_LinkedList.Node newNode = new AK_02_LinkedList.Node(data);
+        Node newNode = new Node(data);
         if (head == null) {
             head = tail = newNode;
             return;
@@ -45,7 +45,7 @@ public class AK_02_LinkedList {
             System.out.println("Linked list is empty");
             return;
         }
-        AK_02_LinkedList.Node temp = head;
+        Node temp = head;
         while(temp != null) {
             System.out.print(temp.data + " -> ");
             temp = temp.next;
@@ -59,8 +59,8 @@ public class AK_02_LinkedList {
             addLast(data);
             return;
         }
-        AK_02_LinkedList.Node newNode = new AK_02_LinkedList.Node(data);
-        AK_02_LinkedList.Node temp = head;
+        Node newNode = new Node(data);
+        Node temp = head;
         int i=0;
 
         while(i < idx-1) {
