@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // Time and Space complexity - O(n)
-public class ak_08_InterleaveTwoHalvesOfQueue {
+public class AK_08_InterleaveTwoHalvesOfQueue {
     public static void interleaveTwoHalves(Queue<Integer> q) {
         Queue<Integer> firstHalf = new LinkedList<>();
         int size = q.size();
