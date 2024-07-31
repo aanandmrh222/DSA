@@ -1,6 +1,6 @@
 package AK_03_Recursion;
 
-public class AK_05_Palindrome {
+public class AK_08_CheckPalindrome {
     public static boolean palindromeChecker(String str) {
         int n = str.length();
         if (n <= 1) {
