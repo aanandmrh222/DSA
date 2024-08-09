@@ -52,7 +52,7 @@ public class AK_10_LowestCommonAncestor {
     }
 
     // Approach 2
-    // Time Complexity - O(n)  & Space - O(1)
+    // Time Complexity - O(n)
     static Node lca2(Node root, int n1, int n2) {
         if(root==null || root.data==n1 || root.data==n2) {
             return root;
