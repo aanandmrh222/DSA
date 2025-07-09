@@ -1,6 +1,6 @@
 package AK_01_ArraySorting;
 
-public class AK_02_SelectionSort {
+public class AK_01_SelectionSort {
     // Time complexity - O(n)
     public static void selectionSort(int[] arr) {
         for(int i=0; i< arr.length-1; i++) {

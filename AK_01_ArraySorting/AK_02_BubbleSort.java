@@ -1,6 +1,6 @@
 package AK_01_ArraySorting;
 
-public class AK_01_BubbleSort {
+public class AK_02_BubbleSort {
     // Time complexity - O(n^2)
     public static void bubbleSort(int[] arr) {
         for(int i=0; i< arr.length-1; i++) {
